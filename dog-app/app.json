@@ -4,10 +4,10 @@
     "slug": "dog-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/cetis01.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/cetis01.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
