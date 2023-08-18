@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, Image, TouchableOpacity, ImageBackground } from
 export default function About({navigation}){
     return (
         <View>
-            <Text>This is About page...</Text>
+            <Text>Como si trabajaramos</Text>
         </View>
     )
 }
