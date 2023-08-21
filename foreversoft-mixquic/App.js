@@ -1,20 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import Reac from 'react'
+import Main from './src/views/Main'
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>¡Bienvenidos a Foreversoft-Mixquic!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+export default function App (){
+return (
+  <Main />
+)
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

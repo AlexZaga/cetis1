@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "JUEGOS",
-    "slug": "JUEGOS",
+    "name": "FOREVERSOFT-MIXQUIC",
+    "slug": "FOREVERSOFT-MIXQUIC",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/portada.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/portada.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
