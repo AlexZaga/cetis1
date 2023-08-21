@@ -3,7 +3,7 @@ import { NavigationContainer} from "@react-navigation/native"
 import { createNativeStackNavigator } from "@react-navigation/native-stack"
 import Home from "./Home"
 import About from "./Acerca"
-import AreaTrabajo from "./areatrabajo"
+import AreaTrabajo from "./AreaTrabajo"
 const Stack = createNativeStackNavigator()
 
 export default function Main(){
