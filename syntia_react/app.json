@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "syntia_react",
+    "slug": "syntia_react",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo_nav.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#27AE60"
+    },
+    "assetBundlePatterns": [
+      
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
