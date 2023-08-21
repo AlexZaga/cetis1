@@ -8,9 +8,9 @@ export default function Splash({ navigation }) {
     <>
       <View style={styles.container}>
         <ImageBackground source={null} resizeMode='cover' style={styles.image}>
-          <Image style={styles.tinylogo} source={require('../images/yop2.jpg') } />
-          <Text style={styles.mensaje}>Este pequeño proyecto fue realizado</Text>
-          <Text style={styles.mensaje}>durante el intersemestre 2023</Text>
+          <Image style={styles.tinylogo} source={require('../images/yop1.jpg') } />
+          <Text style={styles.mensaje}>¡Tu opinión es importante,</Text>
+          <Text style={styles.mensaje}>no olvides dejar tus comentarios!</Text>
           <TouchableOpacity onPress={() => navigation.navigate('Home')}>
             <Text style={styles.button}>Página Principal</Text>
           </TouchableOpacity>
@@ -35,8 +35,8 @@ const styles = StyleSheet.create({
     fontSize: 25
   },
   tinylogo: {
-    width: 380,
-    height: 385,
+    width: 250,
+    height: 380,
   },
   button : {
     marginTop: 20,
