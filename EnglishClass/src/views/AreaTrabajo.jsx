@@ -5,7 +5,7 @@ import { StyleSheet, Text, View, Image, Button } from 'react-native';
 export default function About({ navigation }) {
     return (
         <View style={styles.container}>
-            <Image source={require('../images/imagen1.png')} style={styles.image} />
+            <Image source={require('../images/teacher.png')} style={styles.image} />
             <Text style={styles.text}>Esta es una aplicaci&oacute;n Demo creada para el curso de React Native en el plantel del CETIS No. 1.</Text>
             <Text style={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ratione debitis optio ad mollitia enim deserunt nemo rem atque repudiandae, voluptatibus dicta deleniti, quia totam qui minima explicabo, aut rerum.</Text>            
             <StatusBar style="auto" hidden={true} />
@@ -20,12 +20,14 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         flexDirection: 'column',
-        backgroundColor: '#fff',
+        backgroundColor: '#ffcad4',
         alignItems: 'center',
     },
     image: {
-        width: 300,
-        height: 400
+        width: 450,
+        height: 250,
+        borderWidth: 2,
+        borderRadius: 15,
     },
     text: {
         padding: 15,

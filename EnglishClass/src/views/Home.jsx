@@ -12,9 +12,11 @@ export default function Splash({ navigation }) {
           <Text style={styles.mensaje}>Centro de Estudios Tecnol&oacute;gicos</Text>
           <Text style={styles.mensaje}>Industriales y de Servicio</Text>
           <Text style={styles.mensaje}>No. 1</Text>
-          <Text style={styles.mensaje}>Welcome to your English Class</Text>
           <TouchableOpacity onPress={() => navigation.navigate('About')}>
             <Text style={styles.button}>Saber m&aacute;s</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate('Area de Trabajo')}>
+            <Text style={styles.button}>&Aacute;rea de Trabajo</Text>
           </TouchableOpacity>
           <View style={styles.footer}>
             <Text style={styles.version}>Cetis no. 1</Text>
@@ -39,12 +41,6 @@ const styles = StyleSheet.create({
   tinylogo: {
     width: 350,
     height: 380,
-  },
-  button : {
-    marginTop: 20,
-    padding: 10,
-    borderRadius: 10,
-    backgroundColor: 'blue'
   },
   text : {
     color: '#fff'
