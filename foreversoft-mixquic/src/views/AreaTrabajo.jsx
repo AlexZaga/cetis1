@@ -5,9 +5,9 @@ import { StyleSheet, Text, View, Image, Button } from 'react-native';
 export default function About({ navigation }) {
     return (
         <View style={styles.container}>
-            <Image source={require('../images/HOLA.png')} style={styles.image} />
-            <Text style={styles.text}>En foreversoft cuidamos todos los detalles para ofrecerte una experiencia excepcional.</Text>
-            <Text style={styles.text}>Agenda hoy una cita de valoración sin costo y pongamos a prueba el tratamiento personalizado para ti.</Text>            
+            <Image source={require('../images/SPA.png')} style={styles.image} />
+            <Text style={styles.text}>Somos una clinica de estetica y belleza donde encontraras el tratamiento que tu cuerpo necesita</Text>
+            <Text style={styles.text}>Ven con nosotros para aliviar el estres y la tension a traves de nuestra cama de jade, tratamientos faciales y corporales.</Text>            
             <StatusBar style="auto" hidden={true} />
             <View>
                 <Button title='Volver al inicio' onPress={() => navigation.navigate('Home')} />
