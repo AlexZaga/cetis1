@@ -9,18 +9,18 @@ export default function Splash({ navigation }) {
       <View style={styles.container}>
         <ImageBackground source={null} resizeMode='cover' style={styles.image}>
           <Image style={styles.tinylogo} source={{ uri: 'https://cetis001.edu.mx/assets/img/favicon.png' }} />
-          <Text style={styles.mensaje}>Centro de Estudios Tecnol&oacute;gicos</Text>
+          <Text style={styles.mensaje}>este proyecto se realiza en el labboraroric de cetis 1</Text>
           <Text style={styles.mensaje}>Industriales y de Servicio</Text>
           <Text style={styles.mensaje}>No. 1</Text>
 
-          <TouchableOpacity onPress={() => navigation.navigate('Àrea de Trabajo')}>
+          <TouchableOpacity onPress={() => navigation.navigate('Area de Trabajo')}>
             <Text style={styles.button}>Comentarios... </Text>
           </TouchableOpacity>
-
 
           <TouchableOpacity onPress={() => navigation.navigate('About')}>
             <Text style={styles.button}>Saber m&aacute;s</Text>
           </TouchableOpacity>
+
           <View style={styles.footer}>
             <Text style={styles.version}>Cetis no. 1</Text>
           </View>
